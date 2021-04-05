@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.3rem;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main,
+#nav-bar,
+#bottom,
+#left,
+#right {
+    display: flex;
+}
+
+#main {
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+}
+
+
+/* navbar */
+
+#nav-bar {
+    flex-direction: row-reverse;
+    padding: 1.2rem 0.9rem;
+    font-size: 13px;
+}
+
+#google-account,
+#google-apps {
+    width: 3.1rem;
+    border-radius: 50%;
+}
+
+#google-account a {}
+
+#google-apps img {
+    width: 2.15rem;
+}
+
+#google-account,
+#google-apps,
+#images,
+#gmail {
+    margin: auto 0.8rem;
+}
+
+#google-apps {
+    margin: auto 0.7rem;
+}
+
+#images {
+    margin: auto 2rem auto 1rem;
+}
+
+#images a,
+#gmail a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#images a:hover,
+#gmail a:hover {
+    text-decoration: underline;
+}
+
+#google,
+#search,
+#languages {
+    margin: 0 auto;
+}
+
+
+/* #google */
+
+#google {
+    height: 29.2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#google img {
+    position: absolute;
+    bottom: 0;
+    width: 272px;
+    height: 92px;
+}
+
+
+/* #search */
+
+#search {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#search-bar {
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 582px;
+    height: 46px;
+}
+
+#search-bar:hover,
+#search-bar:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+#search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+#magnifying-glass,
+#microphone {
+    height: 100%;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#magnifying-glass img {
+    height: 40%;
+    padding-left: 1rem;
+}
+
+#microphone img {
+    height: 47%;
+    padding-right: 1.4rem;
+}
+
+#buttons {
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+#google-search,
+#feeling-lucky {
+    font-size: 14px;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+
+#google-search {
+    line-height: 27px;
+    height: 36px;
+    width: 130.4px;
+    margin: 0 4px;
+}
+
+#feeling-lucky {
+    line-height: 27px;
+    height: 36px;
+    width: 145.5px;
+    margin: 0 4px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 4px;
+}
+
+
+/* #languages */
+
+#languages {
+    margin-top: 10px;
+    color: #222;
+    line-height: 28px;
+}
+
+#languages a {
+    text-decoration: inherit;
+    color: #1a0dab;
+    padding: 0 3px;
+}
+
+#languages a:hover {
+    text-decoration: underline;
+}
+
+
+/* #footer */
+
+#footer {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+#top {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#bottom {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#left div,
+#right div {
+    padding: 15px;
+}
+
+#bottom a {
+    color: #70757a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    #bottom {
+        justify-content: space-evenly;
+    }
+}
