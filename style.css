@@ -40,14 +40,22 @@ main,
 
 #google-account,
 #google-apps {
-    width: 3.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
-#google-account a {}
+#google-account:hover,
+#google-apps:hover {
+    background: #e7e7e7;
+}
 
 #google-apps img {
     width: 2.15rem;
+    height: 2.15rem;
 }
 
 #google-account,
@@ -74,6 +82,10 @@ main,
 #images a:hover,
 #gmail a:hover {
     text-decoration: underline;
+}
+
+#gmail {
+    margin-right: 5px;
 }
 
 #google,
@@ -149,6 +161,10 @@ main,
 #microphone img {
     height: 47%;
     padding-right: 1.4rem;
+}
+
+#microphone:hover {
+    cursor: pointer;
 }
 
 #buttons {
