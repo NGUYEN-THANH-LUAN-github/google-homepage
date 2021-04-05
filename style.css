@@ -34,12 +34,12 @@ main,
 
 #nav-bar {
     flex-direction: row-reverse;
-    padding: 1.2rem 0.9rem;
+    padding: 11px 9px;
     font-size: 13px;
 }
 
-#google-account,
-#google-apps {
+#google-apps,
+#google-account {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,25 +48,30 @@ main,
     border-radius: 50%;
 }
 
+#google-apps img {
+    width: 21.5px;
+    height: 21.5px;
+}
+
+#google-account img {
+    width: 32px;
+    height: 32px;
+}
+
 #google-account:hover,
 #google-apps:hover {
     background: #e7e7e7;
-}
-
-#google-apps img {
-    width: 2.15rem;
-    height: 2.15rem;
 }
 
 #google-account,
 #google-apps,
 #images,
 #gmail {
-    margin: auto 0.8rem;
+    margin: auto 6px;
 }
 
 #google-apps {
-    margin: auto 0.7rem;
+    margin: auto 2px;
 }
 
 #images {
@@ -98,7 +103,7 @@ main,
 /* #google */
 
 #google {
-    height: 29.2rem;
+    height: 289px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -182,6 +187,12 @@ main,
     border: 1px solid #f8f9fa;
 }
 
+#google-search:hover,
+#feeling-lucky:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
 #google-search {
     line-height: 27px;
     height: 36px;
@@ -252,6 +263,10 @@ main,
     color: #70757a;
     text-decoration: none;
     cursor: pointer;
+}
+
+#bottom a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 1200px) {
