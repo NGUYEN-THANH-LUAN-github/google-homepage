@@ -103,7 +103,8 @@ main,
 /* #google */
 
 #google {
-    height: 289px;
+    height: 288px;
+    /* margin-top: 200px; */
     display: flex;
     justify-content: center;
     position: relative;
@@ -175,6 +176,11 @@ main,
 #buttons {
     margin: 0 auto;
     padding-top: 3rem;
+}
+
+#google-search a {
+    text-decoration: none;
+    color: #3c4043;
 }
 
 #google-search,
@@ -272,5 +278,23 @@ main,
 @media (max-width: 1200px) {
     #bottom {
         justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 630px) {
+    #search-bar {
+        width: 95vw;
+    }
+}
+
+@media (max-height: 750px) {
+    #google {
+        height: 200px;
+    }
+}
+
+@media (max-height: 600px) {
+    #google {
+        height: 120px;
     }
 }
