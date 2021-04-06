@@ -178,7 +178,8 @@ main,
     padding-top: 3rem;
 }
 
-#google-search a {
+#google-search a,
+#google-search a:visited {
     text-decoration: none;
     color: #3c4043;
 }
