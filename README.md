@@ -2,7 +2,7 @@
 
 2021, March 28th
 
-This is my first project from The Odin Project. Watch [Demo](https://nguyen-thanh-luan-github.github.io/google-homepage.github.io/)
+This is my first project from The Odin Project. Watch [Demo](https://thanh-luan-nguyen.github.io/google-homepage/)
 
 This is the **easy** version - I built the Google.com homepage (only appearance, no functionality).
 
