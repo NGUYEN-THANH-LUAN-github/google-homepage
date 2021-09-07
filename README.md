@@ -6,7 +6,7 @@ I cloned the Google homepage (only appearance, no functionality).
 
 View the code on local machine: `git clone https://github.com/thanh-luan-nguyen/google-homepage.git`
 
-👉 [Live demo](https://thanh-luan-nguyen.github.io/google-homepage/)
+👉 [Live Demo](https://thanh-luan-nguyen.github.io/google-homepage/)
 
 ![preview](https://github.com/thanh-luan-nguyen/my-resume-repository/blob/main/Google%20Homepage.gif)
 
