@@ -1,9 +1,13 @@
-# google-homepage
+# 🌱 google-homepage
 
-2021, March 28th
+### 🔰 **This is my first project from [The Odin Project](https://www.theodinproject.com/home).**
 
-This is my first project from The Odin Project. Watch [Demo](https://nguyen-thanh-luan-github.github.io/google-homepage.github.io/)
+I cloned the Google homepage (only appearance, no functionality).
 
-This is the **easy** version - I built the Google.com homepage (only appearance, no functionality).
+View the code on local machine: `git clone https://github.com/thanh-luan-nguyen/google-homepage.git`
 
-For more details on the objectives of this project, follow this [link](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css)
+👉 [Live Demo](https://thanh-luan-nguyen.github.io/google-homepage/)
+
+![preview](https://github.com/thanh-luan-nguyen/my-resume-repository/blob/main/Google%20Homepage.gif)
+
+❓ For more of this project's description and objectives: [**Project: Google homepage**](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css)
