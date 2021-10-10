@@ -1,13 +1,9 @@
-# 🌱 google-homepage
+# 🌱 Google homepage clone
 
-### 🔰 **This is my first project from [The Odin Project](https://www.theodinproject.com/home).**
+⚠️ This project is now legacy on The Odin Project
 
-I cloned the Google homepage (only appearance, no functionality).
+### 🔰 **This is my first project from [The Odin Project](https://www.theodinproject.com/home)**
 
 👉 [Live Demo](https://thanh-luan-nguyen.github.io/google-homepage/)
 
 <img src="https://github.com/thanh-luan-nguyen/thanh-luan-nguyen/blob/main/project_preview_gifs/theOdinProject/Google%20Homepage.gif"/>
-
-⚙️ View the code on local machine: `git clone https://github.com/thanh-luan-nguyen/google-homepage.git`
-
-❓ For more of this project's description and objectives: [**Project: Google homepage**](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css)
